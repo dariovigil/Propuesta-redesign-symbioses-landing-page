@@ -1,0 +1,130 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #2b3139;
+  color: white; }
+
+nav {
+  white-space: nowrap;
+  overflow-x: auto;
+  background-color: rgba(46, 57, 72, 0.9); }
+
+section {
+  margin-bottom: 4em; }
+
+h1 {
+  font-weight: normal; }
+
+#particles-js {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  opacity: .5;
+  margin: 0;
+  padding: 0; }
+
+a, button {
+  background-color: #1fa253;
+  border: none;
+  color: inherit;
+  padding: 1em 2em;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, #1fa253 0%, rgba(54, 145, 145, 0.9) 100%);
+  width: 80%;
+  text-transform: uppercase; }
+
+h2 {
+  margin: 0;
+  padding: 0; }
+
+.text--secondary {
+  margin-bottom: 3em; }
+
+form {
+  text-align: center; }
+
+input {
+  padding: .8em;
+  margin-bottom: 1em;
+  width: 80%; }
+
+ul {
+  list-style-type: none;
+  padding: 0.5em 1em; }
+
+li {
+  display: inline-block;
+  margin-right: 1em; }
+
+.presentation, .market, .problem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5em 1em 6em 1em; }
+  .presentation img, .market img, .problem img {
+    margin-bottom: 2.5em;
+    width: 70%;
+    max-width: 200px;
+    height: 100%; }
+  .presentation .logo-symbioses, .market .logo-symbioses, .problem .logo-symbioses {
+    max-width: 300px; }
+  .presentation .logo-feature, .market .logo-feature, .problem .logo-feature {
+    width: 50%; }
+  .presentation .text--main, .market .text--main, .problem .text--main {
+    font-size: 2em;
+    font-family: 'Roboto Slab', serif;
+    margin: 0; }
+  .presentation .text--secondary, .market .text--secondary, .problem .text--secondary {
+    font-size: 1.3em; }
+
+.market p,
+.problem p {
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.5em;
+  margin-bottom: 3em; }
+
+.problem h2 {
+  text-align: center;
+  font-size: 1.2em; }
+
+.market-chart-container {
+  width: 350px;
+  position: relative; }
+
+.market-chart__inner {
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -40%); }
+  .market-chart__inner::after {
+    content: '%';
+    font-size: .85em; }
+
+.network-map {
+  position: relative; }
+
+.network-map h2 {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  position: absolute;
+  z-index: 1;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  font-family: 'Roboto Slab', serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.map-container {
+  margin-top: -2em;
+  height: 400px;
+  background-image: url("../img/network-map.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  opacity: .3; }

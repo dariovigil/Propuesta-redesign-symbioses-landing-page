@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
+  <meta name="robots" content="noindex">
+  <title>Rediseño symbioses</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/modern-normalize@0.4.0/modern-normalize.min.css'/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+  <link rel='stylesheet' href='./css/style.css'/>
+</head>
+<body>
+  <nav id="mynav">
+    <ul >
+      <li>Problem</li>
+      <li>Solution</li>
+      <li>Market</li>
+      <li>How it works</li>
+      <li>Technology</li>
+      <li>Roadmap</li>
+      <li>Token</li>
+      <li>Team</li>
+    </ul>
+  </nav>
+  <section class="presentation">
+    <div id="particles-js"></div>
+    <img class="logo-symbioses" src='./img/logo-green.png' alt='logo symbioses'/>
+    <p class="text--main">Decentralized computing, storage and IoT all in one.</p>
+    <p class="text--secondary">Using Blockchain to monetize your device.</p>
+    <h2>Join our white list!</h2>
+    <p>(Pre-sale to be announced soon)</p>
+    <form action=''>
+      <input type='email' placeholder="your email address"/>
+      <button type='submit'>Subscribe</button>
+    </form>
+  </section>
+  <section class="market">
+    <h1 class="text--main">The Market</h1>
+    <p>Smart device sales reached $2.5 billion between TV’s, smartphones, tablets and computers in 2017. With the advancement in processor speeds, the market for cloud computing has exponential growth and Symbioses targets all of it.</p>
+    <div class='market-chart-container'>
+      <canvas id='market-chart'></canvas>
+      <div class='market-chart__inner'>89</div>
+    </div>
+    <p>89% of Amazon profits are derived from the cloud business</p>
+  </section>
+  <section class="problem">
+    <h1 class="text--main">The problem</h1>
+    <p>Demand for computing power and storage capacity will increase exponentially in the coming years. Growth restrictions of Blockchains need to be resolved to allow decentralized computing to be a serious contender to centralized cloud based solutions.</p>
+    <!-- <img class="logo-feature" src='./img/icon-latency@3x.png'/> -->
+    <img class="logo-feature" src='./img/icon-interoprability.png'/>
+    <h2>NON-INTEROPERABLE PROTOCOLS</h2>
+    <p>Current technologies are not interoperable between one another, The Symbioses protocol will unite the disparate systems.</p>
+    <img class="logo-feature" src='./img/icon-scalability.png'/>
+    <h2>BLOCKCHAIN SCALABILITY</h2>
+    <p>The number of Blockchain transactions is growing exponentially and smart contracts will evolve in complexity, requiring even more computing power.</p>
+    <img class="logo-feature" src='./img/icon-latency.png'/>
+    <h2>LATENCY</h2>
+    <p>Delays in mining and validating blocks would cause diminished interactive capacity.</p>
+  </section>
+  <section class="network-map">
+    <h2>WE ARE TALKING ABOUT YOUR DEVICE...</h2>
+    <div class='map-container'></div>    
+    <!-- <img class="network-map" src='./img/network-map.png' alt=''/> -->
+  </section>
+
+
+  <script type='text/javascript' src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type='text/javascript' src='./js/jquery-scrolltofixed-min.js'></script>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js'></script>
+  <script type='text/javascript' src='./js/noframework.waypoints.min.js'></script>
+  <script src='./js/index.js'></script>
+</body>
+</html>
